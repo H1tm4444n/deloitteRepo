@@ -2,4 +2,9 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="swiggyrepoFlow" doc:id="ad3c0fad-40bc-4314-b849-0ab82346b87d" >
+		<logger level="INFO" doc:name="Logger" doc:id="e9a36956-6bfe-4466-a0c7-59cd83bdcc00" />
+		<logger level="INFO" doc:name="Logger" doc:id="33cc4039-f2a7-42ba-8be9-7ea14c20e067" />
+	</flow>
+</mule>
